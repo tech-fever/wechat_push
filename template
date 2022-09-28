@@ -1,0 +1,14 @@
+{{greetings.DATA}}
+
+今天是{{today.DATA}}，周{{weekday.DATA}}
+
+当前温度：{{temp.DATA}}度
+今日天气：{{city.DATA}}今日{{weather.DATA}}，最低温度{{low.DATA}}度，最高温度{{high.DATA}}度，风向{{wind.DATA}}
+今日湿度：{{humidity.DATA}}，今日风向：{{wind.DATA}}
+pm25：{{pm25.DATA}}，空气质量：{{airQuality.DATA}}
+
+{{city.DATA}}疫情数据：
+确诊人数：{{currentConfirmedCount.DATA}}，现有疑似：{{suspectedCount.DATA}}
+
+距离 {{name.DATA}} 生日还有  {{birthday.DATA}} 天  🎂
+我们在一起已经有 {{love_date.DATA}}天  💌
