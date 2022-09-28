@@ -1,0 +1,20 @@
+{
+    "pushplus": {
+      "token": "你的pushplus token。不需要就删除pushplus这一条"
+    },
+    "official_account": {
+      "app_id": "测试公众号appID",
+      "app_secret": "测试公众号appsecret",
+      "template_id": "模板ID"
+    },
+    "friends": [
+      {
+        "to": "pushplus好友token，可以留空",
+        "touser": "好友关注测试公众号后用户列表里的微信号",
+        "name": "好友名字",
+        "city": "城市",
+        "birthday": "2000-00-00",
+        "love_date": "2000-00-00"
+      }
+    ]
+  }
