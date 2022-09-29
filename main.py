@@ -201,10 +201,11 @@ def main():
     config = get_config()
 
     for friend in config['friends']:
+        content = get_content(friend)
         if config.get('pushplus'):
-            content = get_content(friend)
-            send_wechat_official_account_message(content[1], friend, config['official_account'])
             push_plus(content[0], config['pushplus']['token'], friend['to'])
+        if config.get('official_account'):
+            send_wechat_official_account_message(content[1], friend, config['official_account'])
 
 
 if __name__ == '__main__':
